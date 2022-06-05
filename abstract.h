@@ -52,6 +52,7 @@ public:
 	void print() override {
 		cout << name << "    " << surname << "    " << midname << "    " << age << "    " << on_lesson << endl;
 	}
+	~Student(){}
 
 };
 
@@ -68,7 +69,7 @@ public:
 	void print() override {
 		cout << name << "    " << surname << "    " << midname << "    " << age << "    " << number_of_workers << endl;
 	}
-
+	~Boss(){}
 };
 
 #endif 
