@@ -1,6 +1,6 @@
 #pragma once
-#ifndef human_H
-#define human_H
+#ifndef abstract_H
+#define abstract_H
 
 
 
