@@ -33,7 +33,8 @@ public:
 
 	}
 	virtual void print() = 0;
-	~Human() {}
+	~Human() {
+	}
 };
 
 
@@ -50,9 +51,10 @@ public:
 		this->on_lesson = on_lesson;
 	}
 	void print() override {
-		cout << name << "    " << surname << "    " << midname << "    " << age << "    " << on_lesson << endl;
+		cout << name << "\t" << surname << "\t" << midname << "\t" << age << "\t" << on_lesson << endl;
 	}
-	~Student(){}
+	~Student(){
+	}
 
 };
 
@@ -67,9 +69,10 @@ public:
 		this->number_of_workers = number_of_workers;
 	}
 	void print() override {
-		cout << name << "    " << surname << "    " << midname << "    " << age << "    " << number_of_workers << endl;
+		cout << name << "\t" << surname << "\t" << midname << "\t" << age << "\t" << number_of_workers << endl;
 	}
-	~Boss(){}
+	~Boss(){
+	}
 };
 
 #endif 
